@@ -1,0 +1,27 @@
+.icon {
+  /* z-index: -1; */
+  transform: scale(0);
+  transition: all 0.5s;
+}
+
+.parent:hover .icon {
+  /* z-index: 1; */
+  transform: scale(1);
+}
+.parent {
+  overflow: hidden;
+  /* border:; */
+}
+.parent-img{
+  overflow: hidden;
+}
+.parent img {
+  max-height: 300px;
+
+  transition: 0.8s;
+  transform: scale(1);
+}
+.parent:hover img {
+  transform: scale(1.2);
+  opacity: 0.7;
+}
